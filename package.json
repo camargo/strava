@@ -1,0 +1,19 @@
+{
+  "name": "strava",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf paths.json",
+    "start": "node index.js",
+    "unzip": "node unzip.js ./export/activities"
+  },
+  "author": "Chris Camargo <camargo.cac@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "csvtojson": "^2.0.10",
+    "fit-file-parser": "^1.6.17",
+    "node-fetch": "^2.6.0",
+    "xmldom": "^0.2.1"
+  }
+}
